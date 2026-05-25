@@ -14,3 +14,9 @@ export const removeUserAction = (id) => {
     payload: id
   }
 }
+
+export const removeAllUsersAction = () => {
+  return {
+    type: 'removeAllUsers'
+  }
+}
